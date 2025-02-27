@@ -1,0 +1,25 @@
+@media screen and (min-width:2040px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .offer__scroll-container {
+        max-height: 70vh;
+        margin: 24px;
+        overflow-y: auto;
+    }
+    .main-container {
+        display: flex;
+        max-width: 90vw;
+        height: 100vh;
+        margin-left: 320px;
+        margin-right: 0;
+        flex-direction: column;
+    }
+    .playlist-container {
+        height: 75vh;
+        padding-top: 16px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #121212;
+    }
+}

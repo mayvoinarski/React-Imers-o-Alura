@@ -1,0 +1,42 @@
+.footer-spotify {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 103, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    ;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: #fff;
+    flex-shrink: 0;
+    line-height: 25px;
+}
+
+.footer-text__title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-text__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-spotify button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
